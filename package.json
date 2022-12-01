@@ -1,0 +1,25 @@
+{
+    "name": "advent-of-code-22",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "latest": "ts-node $(ls -d -- days/*/ | tail -n 1)"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jonoHawkins/advent-of-code-22.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jonoHawkins/advent-of-code-22/issues"
+    },
+    "homepage": "https://github.com/jonoHawkins/advent-of-code-22#readme",
+    "devDependencies": {
+        "@types/node": "^18.11.10",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.3"
+    }
+}
